@@ -1,0 +1,43 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;Data Source=altium_developer;Initial Catalog=altium_library
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote=`
+RightQuote=`
+QuoteTableNames=1
+UseTableSchemaName=1
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=
+LibraryDatabasePath=
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LibrarySearchPath=
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=ics
+[Table1]
+SchemaName=
+TableName=ics
+Enabled=True
+UserWhere=0
+UserWhereText=`Footprint_Path` = '{Footprint Path}'
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part_Number0=106|Library_Ref0=92|Library_Path0=101|Category0=81|Comment0=86|Component_Kind0=131|Component_Type0=133|Created0=73|Description0=94|Designator0=92|Footprint0=82|Library_Reference0=132|Manufacturer0=108|Manufacturer_Part_Number0=195|Max_Input_Voltage0=143|Max_Voltage0=104|Mounting_Style0=121|Package0=75|Pin_Count0=88|Pins0=50|Supplier_10=88|Supplier_Part_Number_10=175|Footprint_Path0=116|Footprint_Ref0=107|Supplier_20=88|Supplier_30=88|Supplier_40=88|Supplier_Part_Number_20=175|Supplier_Part_Number_30=175|Supplier_Part_Number_40=175|Value0=59|HelpURL0=78|MF0=45|MPN0=56|ComponentLink1Description0=200|ComponentLink1URL0=156|Package_Case0=110|TRIAL1710=84|Library Path0=99|Library Ref0=90
+[FieldMap1]
+Options=FieldName=ics.Description|TableNameOnly=ics|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=ics.Library Path|TableNameOnly=ics|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=ics.Library Ref|TableNameOnly=ics|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=ics.Part Number|TableNameOnly=ics|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=ics.Footprint Path|TableNameOnly=ics|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=ics.Footprint Ref|TableNameOnly=ics|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
