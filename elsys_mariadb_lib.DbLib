@@ -5,7 +5,7 @@ ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;Data Source=alti
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=`
 RightQuote=`
 QuoteTableNames=1
@@ -19,31 +19,28 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Capacitors - SMD
+LastFocusedTable=ADC
 [Table1]
 SchemaName=
 TableName=ADC
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=390|Footprint Path0=496|Footprint Path 20=126|Footprint Path 30=126|Footprint Ref0=185|Footprint Ref 20=117|Footprint Ref 30=117|Library Path0=541|Library Ref0=90|Manufacturer Part Number0=191|PartID0=64|Created On0=138|Comment0=186|ComponentLink1Description0=200|ComponentLink1URL0=408|ComponentLink2Description0=200|ComponentLink2URL0=156|ComponentLink3Description0=200|ComponentLink3URL0=156|ComponentLink4Description0=200|ComponentLink4URL0=156|ComponentLink5Description0=200|ComponentLink5URL0=156|ComponentLink6Description0=200|ComponentLink6URL0=156|Component Type0=131|Device Package0=119|Last Updated0=138|Manufacturer0=108|Minimum Order0=124|Mounting Type0=119|Operating Temperature0=169|Series0=60|Supplier 10=86|Supplier Part Number 10=169|Supplier 20=86|Supplier Part Number 20=169|Supplier 30=86|Supplier Part Number 30=169|Supplier 40=86|Supplier Part Number 40=169|Supplier 50=86|Supplier Part Number 50=169|Supplier 60=86|Supplier Part Number 60=169|Type0=54|Channels0=81|Resolution0=89|Value0=108|Created from0=106|Verified by0=90|Live Cycle Status0=127|JLC CPL0=74|Stock number0=110
 [Table2]
 SchemaName=
 TableName=Bipolartransistors
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=345|Footprint Path0=442|Footprint Path 20=126|Footprint Path 30=126|Footprint Ref0=139|Footprint Ref 20=117|Footprint Ref 30=117|Manufacturer Part Number0=191|Library Path0=355|Library Ref0=90|PartID0=64|Created On0=138|Comment0=186|ComponentLink1Description0=200|ComponentLink1URL0=387|ComponentLink2Description0=200|ComponentLink2URL0=156|ComponentLink3Description0=200|ComponentLink3URL0=156|ComponentLink4Description0=200|ComponentLink4URL0=156|ComponentLink5Description0=200|ComponentLink5URL0=156|ComponentLink6Description0=200|ComponentLink6URL0=156|Component Type0=131|Device Package0=119|Last Updated0=138|Manufacturer0=135|Minimum Order0=124|Mounting Type0=119|Operating Temperature0=169|Series0=83|Supplier 10=86|Supplier Part Number 10=169|Supplier 20=86|Supplier Part Number 20=169|Supplier 30=86|Supplier Part Number 30=169|Supplier 40=86|Supplier Part Number 40=169|Supplier 50=86|Supplier Part Number 50=169|Supplier 60=86|Supplier Part Number 60=169|Type0=110|Number Of Channels0=154|Collector Emitter Voltage0=178|Collector Basis Voltage0=164|Polarization0=96|Power Dissipation0=134|Value0=59|Created from0=106|Verified by0=90|Live Cycle Status0=127|JLC CPL0=74|Stock number0=110
 [Table3]
 SchemaName=
 TableName=Capacitors - SMD
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=275|Footprint Path0=589|Footprint Path 20=126|Footprint Path 30=126|Footprint Ref0=200|Footprint Ref 20=117|Footprint Ref 30=117|Library Path0=459|Library Ref0=189|Manufacturer Part Number0=191|PartID0=64|Created On0=138|Comment0=86|ComponentLink1Description0=200|ComponentLink1URL0=574|ComponentLink2Description0=200|ComponentLink2URL0=156|ComponentLink3Description0=200|ComponentLink3URL0=156|ComponentLink4Description0=200|ComponentLink4URL0=156|ComponentLink5Description0=200|ComponentLink5URL0=156|ComponentLink6Description0=200|ComponentLink6URL0=156|Component Type0=147|Device Package0=200|Last Updated0=138|Manufacturer0=181|Minimum Order0=124|Mounting Type0=119|Operating Temperature0=169|Series0=157|Supplier 10=86|Supplier Part Number 10=182|Supplier 20=86|Supplier Part Number 20=169|Supplier 30=86|Supplier Part Number 30=169|Supplier 40=86|Supplier Part Number 40=169|Supplier 50=86|Supplier Part Number 50=169|Supplier 60=86|Supplier Part Number 60=169|Type0=68|Tolerance0=83|Voltage Rating0=115|Value0=64|Created from0=106|Verified by0=90|Live Cycle Status0=127|JLC CPL0=74|Stock number0=143
 [Table4]
 SchemaName=
 TableName=Connectors - Board to Board
@@ -166,25 +163,28 @@ UserWhere=0
 UserWhereText=
 [Table24]
 SchemaName=
-TableName=Logic - Gates and Inverters
+TableName=Logic - Buffer and Driver
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=PartID0=64|Created On0=138|Comment0=186|ComponentLink1Description0=200|ComponentLink1URL0=1127|ComponentLink2Description0=200|ComponentLink2URL0=156|ComponentLink3Description0=200|ComponentLink3URL0=156|ComponentLink4Description0=200|ComponentLink4URL0=156|ComponentLink5Description0=200|ComponentLink5URL0=156|ComponentLink6Description0=200|ComponentLink6URL0=156|Component Type0=158|Description0=435|Device Package0=119|Footprint Path0=478|Footprint Path 20=126|Footprint Path 30=126|Footprint Ref0=169|Footprint Ref 20=117|Footprint Ref 30=117|Last Updated0=138|Manufacturer0=147|Manufacturer Part Number0=191|Minimum Order0=124|Mounting Type0=119|Operating Temperature0=169|Series0=119|Supplier 10=86|Supplier Part Number 10=184|Supplier 20=86|Supplier Part Number 20=169|Supplier 30=86|Supplier Part Number 30=169|Supplier 40=86|Supplier Part Number 40=169|Supplier 50=86|Supplier Part Number 50=169|Supplier 60=86|Supplier Part Number 60=169|Library Path0=379|Library Ref0=144|Type0=152|Power loss0=90|Value0=59|Created from0=106|Verified by0=90|Live Cycle Status0=127|JLC CPL0=74|Stock number0=110
 [Table25]
 SchemaName=
-TableName=Logic - Level Translators
+TableName=Logic - Gates and Inverters
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table26]
 SchemaName=
-TableName=Logic - Operational Amplifiers
+TableName=Logic - Level Translators
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table27]
 SchemaName=
-TableName=Logic - Puffer and Driver
+TableName=Logic - Operational Amplifiers
 Enabled=True
 UserWhere=0
 UserWhereText=
@@ -236,18 +236,12 @@ TableName=Power Supply - Module
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=652|Footprint Path0=471|Footprint Path 20=126|Footprint Path 30=126|Footprint Ref0=184|Footprint Ref 20=117|Footprint Ref 30=117|Library Path0=496|Library Ref0=152|Manufacturer Part Number0=191|PartID0=64|Created On0=138|Comment0=186|ComponentLink1Description0=200|ComponentLink1URL0=891|ComponentLink2Description0=200|ComponentLink2URL0=156|ComponentLink3Description0=200|ComponentLink3URL0=156|ComponentLink4Description0=200|ComponentLink4URL0=156|ComponentLink5Description0=200|ComponentLink5URL0=156|ComponentLink6Description0=200|ComponentLink6URL0=156|Component Type0=191|Device Package0=119|Last Updated0=138|Manufacturer0=121|Minimum Order0=124|Mounting Type0=119|Operating Temperature0=169|Series0=105|Supplier 10=86|Supplier Part Number 10=182|Supplier 20=86|Supplier Part Number 20=169|Supplier 30=86|Supplier Part Number 30=169|Supplier 40=86|Supplier Part Number 40=169|Supplier 50=86|Supplier Part Number 50=169|Supplier 60=86|Supplier Part Number 60=169|Type0=186|Value0=69|Created from0=106|Verified by0=90|Live Cycle Status0=127|JLC CPL0=74|Stock number0=110
 [Table36]
 SchemaName=
 TableName=Resistors - SMD
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=172|Footprint Path0=531|Footprint Path 20=126|Footprint Path 30=126|Footprint Ref0=107|Footprint Ref 20=117|Footprint Ref 30=117|Manufacturer Part Number0=211|Library Path0=345|Library Ref0=90|PartID0=64|Created On0=138|Comment0=86|ComponentLink1Description0=200|ComponentLink1URL0=537|ComponentLink2Description0=200|ComponentLink2URL0=156|ComponentLink3Description0=200|ComponentLink3URL0=156|ComponentLink4Description0=200|ComponentLink4URL0=156|ComponentLink5Description0=200|ComponentLink5URL0=156|ComponentLink6Description0=200|ComponentLink6URL0=156|Component Type0=131|Device Package0=119|Last Updated0=138|Manufacturer0=126|Minimum Order0=124|Mounting Type0=119|Operating Temperature0=169|Series0=60|Supplier 10=86|Supplier Part Number 10=171|Supplier 20=86|Supplier Part Number 20=169|Supplier 30=86|Supplier Part Number 30=169|Supplier 40=86|Supplier Part Number 40=169|Supplier 50=86|Supplier Part Number 50=169|Supplier 60=86|Supplier Part Number 60=169|Type0=101|Tolerance0=83|Value0=59|Created from0=106|Verified by0=90|Live Cycle Status0=127|JLC CPL0=74|Stock number0=143
 [Table37]
 SchemaName=
 TableName=Sensor - Current
@@ -731,85 +725,85 @@ Options=FieldName=Interface - SPI.Library Ref|TableNameOnly=Interface - SPI|Fiel
 [FieldMap232]
 Options=FieldName=Interface - SPI.Manufacturer Part Number|TableNameOnly=Interface - SPI|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap233]
-Options=FieldName=Logic - Gates and Inverters.Description|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Buffer and Driver.Description|TableNameOnly=Logic - Buffer and Driver|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap234]
-Options=FieldName=Logic - Gates and Inverters.Footprint Path|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Buffer and Driver.Footprint Path|TableNameOnly=Logic - Buffer and Driver|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap235]
-Options=FieldName=Logic - Gates and Inverters.Footprint Path 2|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Buffer and Driver.Footprint Path 2|TableNameOnly=Logic - Buffer and Driver|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap236]
-Options=FieldName=Logic - Gates and Inverters.Footprint Path 3|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Buffer and Driver.Footprint Path 3|TableNameOnly=Logic - Buffer and Driver|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap237]
-Options=FieldName=Logic - Gates and Inverters.Footprint Ref|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Buffer and Driver.Footprint Ref|TableNameOnly=Logic - Buffer and Driver|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap238]
-Options=FieldName=Logic - Gates and Inverters.Footprint Ref 2|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Buffer and Driver.Footprint Ref 2|TableNameOnly=Logic - Buffer and Driver|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap239]
-Options=FieldName=Logic - Gates and Inverters.Footprint Ref 3|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Buffer and Driver.Footprint Ref 3|TableNameOnly=Logic - Buffer and Driver|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap240]
-Options=FieldName=Logic - Gates and Inverters.Library Path|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Buffer and Driver.Manufacturer Part Number|TableNameOnly=Logic - Buffer and Driver|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap241]
-Options=FieldName=Logic - Gates and Inverters.Library Ref|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Buffer and Driver.Library Path|TableNameOnly=Logic - Buffer and Driver|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap242]
-Options=FieldName=Logic - Gates and Inverters.Manufacturer Part Number|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Buffer and Driver.Library Ref|TableNameOnly=Logic - Buffer and Driver|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap243]
-Options=FieldName=Logic - Level Translators.Description|TableNameOnly=Logic - Level Translators|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Gates and Inverters.Description|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap244]
-Options=FieldName=Logic - Level Translators.Footprint Path|TableNameOnly=Logic - Level Translators|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Gates and Inverters.Footprint Path|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap245]
-Options=FieldName=Logic - Level Translators.Footprint Path 2|TableNameOnly=Logic - Level Translators|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Gates and Inverters.Footprint Path 2|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap246]
-Options=FieldName=Logic - Level Translators.Footprint Path 3|TableNameOnly=Logic - Level Translators|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Gates and Inverters.Footprint Path 3|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap247]
-Options=FieldName=Logic - Level Translators.Footprint Ref|TableNameOnly=Logic - Level Translators|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Gates and Inverters.Footprint Ref|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap248]
-Options=FieldName=Logic - Level Translators.Footprint Ref 2|TableNameOnly=Logic - Level Translators|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Gates and Inverters.Footprint Ref 2|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap249]
-Options=FieldName=Logic - Level Translators.Footprint Ref 3|TableNameOnly=Logic - Level Translators|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Gates and Inverters.Footprint Ref 3|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap250]
-Options=FieldName=Logic - Level Translators.Library Path|TableNameOnly=Logic - Level Translators|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Gates and Inverters.Library Path|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap251]
-Options=FieldName=Logic - Level Translators.Library Ref|TableNameOnly=Logic - Level Translators|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Gates and Inverters.Library Ref|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap252]
-Options=FieldName=Logic - Level Translators.Manufacturer Part Number|TableNameOnly=Logic - Level Translators|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Gates and Inverters.Manufacturer Part Number|TableNameOnly=Logic - Gates and Inverters|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap253]
-Options=FieldName=Logic - Operational Amplifiers.Description|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Level Translators.Description|TableNameOnly=Logic - Level Translators|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap254]
-Options=FieldName=Logic - Operational Amplifiers.Footprint Path|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Level Translators.Footprint Path|TableNameOnly=Logic - Level Translators|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap255]
-Options=FieldName=Logic - Operational Amplifiers.Footprint Path 2|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Level Translators.Footprint Path 2|TableNameOnly=Logic - Level Translators|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap256]
-Options=FieldName=Logic - Operational Amplifiers.Footprint Path 3|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Level Translators.Footprint Path 3|TableNameOnly=Logic - Level Translators|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap257]
-Options=FieldName=Logic - Operational Amplifiers.Footprint Ref|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Level Translators.Footprint Ref|TableNameOnly=Logic - Level Translators|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap258]
-Options=FieldName=Logic - Operational Amplifiers.Footprint Ref 2|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Level Translators.Footprint Ref 2|TableNameOnly=Logic - Level Translators|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap259]
-Options=FieldName=Logic - Operational Amplifiers.Footprint Ref 3|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Level Translators.Footprint Ref 3|TableNameOnly=Logic - Level Translators|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap260]
-Options=FieldName=Logic - Operational Amplifiers.Manufacturer Part Number|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Level Translators.Library Path|TableNameOnly=Logic - Level Translators|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap261]
-Options=FieldName=Logic - Operational Amplifiers.Library Path|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Level Translators.Library Ref|TableNameOnly=Logic - Level Translators|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap262]
-Options=FieldName=Logic - Operational Amplifiers.Library Ref|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Level Translators.Manufacturer Part Number|TableNameOnly=Logic - Level Translators|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap263]
-Options=FieldName=Logic - Puffer and Driver.Description|TableNameOnly=Logic - Puffer and Driver|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Operational Amplifiers.Description|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap264]
-Options=FieldName=Logic - Puffer and Driver.Footprint Path|TableNameOnly=Logic - Puffer and Driver|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Operational Amplifiers.Footprint Path|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap265]
-Options=FieldName=Logic - Puffer and Driver.Footprint Path 2|TableNameOnly=Logic - Puffer and Driver|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Operational Amplifiers.Footprint Path 2|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap266]
-Options=FieldName=Logic - Puffer and Driver.Footprint Path 3|TableNameOnly=Logic - Puffer and Driver|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Operational Amplifiers.Footprint Path 3|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap267]
-Options=FieldName=Logic - Puffer and Driver.Footprint Ref|TableNameOnly=Logic - Puffer and Driver|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Operational Amplifiers.Footprint Ref|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap268]
-Options=FieldName=Logic - Puffer and Driver.Footprint Ref 2|TableNameOnly=Logic - Puffer and Driver|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Operational Amplifiers.Footprint Ref 2|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap269]
-Options=FieldName=Logic - Puffer and Driver.Footprint Ref 3|TableNameOnly=Logic - Puffer and Driver|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Operational Amplifiers.Footprint Ref 3|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap270]
-Options=FieldName=Logic - Puffer and Driver.Manufacturer Part Number|TableNameOnly=Logic - Puffer and Driver|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Operational Amplifiers.Manufacturer Part Number|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap271]
-Options=FieldName=Logic - Puffer and Driver.Library Path|TableNameOnly=Logic - Puffer and Driver|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Operational Amplifiers.Library Path|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap272]
-Options=FieldName=Logic - Puffer and Driver.Library Ref|TableNameOnly=Logic - Puffer and Driver|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Logic - Operational Amplifiers.Library Ref|TableNameOnly=Logic - Operational Amplifiers|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap273]
 Options=FieldName=MOSFET - Gate Drivers.Description|TableNameOnly=MOSFET - Gate Drivers|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap274]
