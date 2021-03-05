@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Diodes - LED
+LastFocusedTable=ADC
 [Table1]
 SchemaName=
 TableName=ADC
@@ -98,9 +98,6 @@ TableName=Diodes - LED
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=374|Footprint Path0=294|Footprint Path 20=107|Footprint Path 30=107|Footprint Ref0=92|Footprint Ref 20=101|Footprint Ref 30=101|Library Path0=275|Library Ref0=77|Manufacturer Part Number0=160|Comment0=153|PartID0=54|Created On0=107|ComponentLink1Description0=170|ComponentLink1URL0=537|ComponentLink2Description0=170|ComponentLink2URL0=131|ComponentLink3Description0=170|ComponentLink3URL0=131|ComponentLink4Description0=170|ComponentLink4URL0=131|ComponentLink5Description0=170|ComponentLink5URL0=131|ComponentLink6Description0=170|ComponentLink6URL0=131|Component Type0=111|Device Package0=101|Last Updated0=107|Manufacturer0=189|Minimum Order0=104|Mounting Type0=102|Operating Temperature0=144|Series0=53|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=143|Supplier 40=75|Supplier Part Number 40=142|Supplier 50=75|Supplier Part Number 50=142|Supplier 60=75|Supplier Part Number 60=142|Type0=55|Value0=52|Created from0=90|Verified by0=78|Live Cycle Status0=106|Stock number0=94|Color0=51|Forward Current I_f0=123|Forward Voltage U_f0=129|Wavelength0=85|Light Intensity0=96|Nominal Power0=101|LCSC Part Number0=115
 [Table14]
 SchemaName=
 TableName=Diodes - Schottky
