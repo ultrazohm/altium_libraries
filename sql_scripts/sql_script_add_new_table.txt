@@ -44,15 +44,15 @@ CREATE OR REPLACE TABLE  `Logic - Isolators` (
 	`Supplier Part Number 6` 	VARCHAR(150) NULL,
 	`Library Path` 				VARCHAR(100) NULL,
 	`Library Ref` 				VARCHAR(100) NULL,
-	`Type` 						VARCHAR(100) NOT NULL,
+	`Type` 						VARCHAR(100) DEFAULT 'Standard',
 	`Channels` 					VARCHAR(100) NULL,
 	`Resolution` 				VARCHAR(100) NULL,
 	`Value` 					VARCHAR(100) NULL,
 	`Created from`				VARCHAR(100) NULL,
 	`Verified by`				VARCHAR(100) NULL,
 	`Live Cycle Status`			VARCHAR(100) NOT NULL,
-	`JLC CPL`					VARCHAR(100) NULL,
 	`Stock number`				VARCHAR(100) NULL,
+	`LCSC Part Number`		VARCHAR(100) NULL,
 	CONSTRAINT primary_key PRIMARY KEY (PartID)
 )
 ENGINE=InnoDB
