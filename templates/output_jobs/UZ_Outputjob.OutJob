@@ -657,7 +657,7 @@ OutputPathOutputer7=[Output Type]
 OutputPathOutputerPrefix7=
 OutputPathOutputerValue7=
 OutputFileName7=
-OutputFileNameMulti7==ProjectName+'_'+VariantName+'_'+ProjectRevision
+OutputFileNameMulti7==ProjectName+'_'+ProjectRevision
 UseOutputNameForMulti7=0
 OutputFileNameSpecial7=
 OpenOutput7=0
