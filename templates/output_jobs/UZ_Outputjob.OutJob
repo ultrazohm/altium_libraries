@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=UZ_Outputjob.OutJob
+Name=
 Description=
-TargetOutputMedium=BOM
+TargetOutputMedium=Gerber_and_Drill_Files
 VariantName=[No Variations]
-VariantScope=1
+VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=4505ci KX
+TargetPrinter=OKI B432(PS)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -61,7 +61,7 @@ OutputEnabled1_OutputMedium9=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.85|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=20866145|ViewY=34645672|LookAtX=20275590|LookAtY=27165356|LookAtZ=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=2.56597707211452E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=
+Configuration1_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=20866145|ViewY=34645672|LookAtX=20275590|LookAtY=27165356|LookAtZ=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=2.56597707211452E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=|DocumentPath=[PCB Document]
 OutputType2=PCB 3D Print
 OutputName2=3D_View_Bird
 OutputCategory2=Documentation
@@ -168,7 +168,7 @@ OutputName6=Bill of Materials
 OutputCategory6=Report
 OutputDocumentPath6=
 OutputVariantName6=Standard
-OutputEnabled6=1
+OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=0
@@ -217,7 +217,7 @@ OutputName8=Gerber Files
 OutputCategory8=Fabrication
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=0
+OutputEnabled8=1
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=0
@@ -235,7 +235,7 @@ OutputName9=NC Drill Files
 OutputCategory9=Fabrication
 OutputDocumentPath9=
 OutputVariantName9=
-OutputEnabled9=0
+OutputEnabled9=1
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=0
@@ -543,7 +543,7 @@ Configuration13_Item9=Comment=116|Designator=107|Footprint=149|LCSC Part Number=
 [PublishSettings]
 OutputFilePath2=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Ordering_Test
+OutputBasePath2=Project Outputs for Free Documents
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=
@@ -568,9 +568,9 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\ProjectRevision\
+OutputFilePath3=Project Outputs for Free Documents\ProjectRevision\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for Ordering_Test
+OutputBasePath3=Project Outputs for Free Documents
 OutputPathMedia3==ProjectRevision
 OutputPathMediaValue3==ProjectRevision
 OutputPathOutputer3=
@@ -580,7 +580,7 @@ OutputFileName3=OutputJob.PDF
 OutputFileNameMulti3=='SCH_' + ProjectName + '_' + VariantName + '_' + ProjectRevision
 UseOutputNameForMulti3=0
 OutputFileNameSpecial3=
-OpenOutput3=1
+OpenOutput3=0
 PromptOverwrite3=1
 PublishMethod3=1
 ZoomLevel3=50
@@ -597,7 +597,7 @@ PDFACompliance3=Disabled
 PDFVersion3=Default
 OutputFilePath4=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\ProjectRevision\
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for Ordering_Test
+OutputBasePath4=Project Outputs for Free Documents
 OutputPathMedia4==ProjectRevision
 OutputPathMediaValue4==ProjectRevision
 OutputPathOutputer4=
@@ -622,9 +622,9 @@ ShowComponentParameters4=1
 GlobalBookmarks4=0
 PDFACompliance4=Disabled
 PDFVersion4=Default
-OutputFilePath5=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\ProjectRevision\
+OutputFilePath5=Project Outputs for Free Documents\ProjectRevision\
 ReleaseManaged5=1
-OutputBasePath5=Project Outputs for Ordering_Test
+OutputBasePath5=Project Outputs for Free Documents
 OutputPathMedia5==ProjectRevision
 OutputPathMediaValue5==ProjectRevision
 OutputPathOutputer5=[Output Custom]
@@ -634,10 +634,10 @@ OutputFileName5=
 OutputFileNameMulti5=='BOM_JLC_'+ProjectName+'_'+VariantName+'_'+ProjectRevision
 UseOutputNameForMulti5=0
 OutputFileNameSpecial5=
-OpenOutput5=1
-OutputFilePath6=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\
+OpenOutput5=0
+OutputFilePath6=Project Outputs for Free Documents\
 ReleaseManaged6=1
-OutputBasePath6=Project Outputs for Ordering_Test
+OutputBasePath6=Project Outputs for Free Documents
 OutputPathMedia6=
 OutputPathMediaValue6=
 OutputPathOutputer6=[Output Type]
@@ -648,9 +648,9 @@ OutputFileNameMulti6=='Export STEP_'+ProjectName+'_'+VariantName+'_'+ProjectRevi
 UseOutputNameForMulti6=0
 OutputFileNameSpecial6=
 OpenOutput6=0
-OutputFilePath7=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\ProjectRevision\
+OutputFilePath7=Project Outputs for Free Documents\ProjectRevision\
 ReleaseManaged7=1
-OutputBasePath7=Project Outputs for Ordering_Test
+OutputBasePath7=Project Outputs for Free Documents
 OutputPathMedia7==ProjectRevision
 OutputPathMediaValue7==ProjectRevision
 OutputPathOutputer7=[Output Type]
@@ -661,9 +661,9 @@ OutputFileNameMulti7==ProjectName+'_'+VariantName+'_'+ProjectRevision
 UseOutputNameForMulti7=0
 OutputFileNameSpecial7=
 OpenOutput7=0
-OutputFilePath8=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\ProjectRevision\
+OutputFilePath8=Project Outputs for Free Documents\ProjectRevision\
 ReleaseManaged8=1
-OutputBasePath8=Project Outputs for Ordering_Test
+OutputBasePath8=Project Outputs for Free Documents
 OutputPathMedia8=='ProjectRevision'
 OutputPathMediaValue8=='ProjectRevision'
 OutputPathOutputer8=[Output Type]
@@ -673,10 +673,10 @@ OutputFileName8=
 OutputFileNameMulti8=='Pick_and_Place_'+ProjectName+'_'+VariantName+'_'+ProjectRevision
 UseOutputNameForMulti8=0
 OutputFileNameSpecial8=
-OpenOutput8=1
-OutputFilePath9=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\ProjectRevision\
+OpenOutput8=0
+OutputFilePath9=Project Outputs for Free Documents\ProjectRevision\
 ReleaseManaged9=1
-OutputBasePath9=Project Outputs for Ordering_Test
+OutputBasePath9=Project Outputs for Free Documents
 OutputPathMedia9==ProjectRevision
 OutputPathMediaValue9==ProjectRevision
 OutputPathOutputer9=[Output Type]
@@ -686,17 +686,17 @@ OutputFileName9=
 OutputFileNameMulti9=='BOM_'+ProjectName+'_'+VariantName+'_'+ProjectRevision
 UseOutputNameForMulti9=0
 OutputFileNameSpecial9=
-OpenOutput9=1
+OpenOutput9=0
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\
 OpenOutputs2=0
-RelativeOutputPath3=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\ProjectRevision\
-OpenOutputs3=1
+RelativeOutputPath3=Project Outputs for Free Documents\ProjectRevision\
+OpenOutputs3=0
 RelativeOutputPath4=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\ProjectRevision\
 OpenOutputs4=0
-RelativeOutputPath5=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\ProjectRevision\
-OpenOutputs5=1
+RelativeOutputPath5=Project Outputs for Free Documents\ProjectRevision\
+OpenOutputs5=0
 AddToProject5=0
 TimestampFolder5=0
 UseOutputName5=0
@@ -705,9 +705,9 @@ OpenGerberOutput5=0
 OpenNCDrillOutput5=0
 OpenIPCOutput5=0
 EnableReload5=0
-RelativeOutputPath6=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\
+RelativeOutputPath6=Project Outputs for Free Documents\
 OpenOutputs6=0
-AddToProject6=1
+AddToProject6=0
 TimestampFolder6=0
 UseOutputName6=0
 OpenODBOutput6=0
@@ -715,7 +715,7 @@ OpenGerberOutput6=0
 OpenNCDrillOutput6=0
 OpenIPCOutput6=0
 EnableReload6=0
-RelativeOutputPath7=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\ProjectRevision\
+RelativeOutputPath7=Project Outputs for Free Documents\ProjectRevision\
 OpenOutputs7=0
 AddToProject7=0
 TimestampFolder7=0
@@ -725,9 +725,9 @@ OpenGerberOutput7=0
 OpenNCDrillOutput7=0
 OpenIPCOutput7=0
 EnableReload7=0
-RelativeOutputPath8=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\ProjectRevision\
-OpenOutputs8=1
-AddToProject8=1
+RelativeOutputPath8=Project Outputs for Free Documents\ProjectRevision\
+OpenOutputs8=0
+AddToProject8=0
 TimestampFolder8=0
 UseOutputName8=0
 OpenODBOutput8=0
@@ -735,9 +735,9 @@ OpenGerberOutput8=0
 OpenNCDrillOutput8=0
 OpenIPCOutput8=0
 EnableReload8=0
-RelativeOutputPath9=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\ProjectRevision\
-OpenOutputs9=1
-AddToProject9=1
+RelativeOutputPath9=Project Outputs for Free Documents\ProjectRevision\
+OpenOutputs9=0
+AddToProject9=0
 TimestampFolder9=0
 UseOutputName9=0
 OpenODBOutput9=0
