@@ -19,16 +19,13 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Inductor
+LastFocusedTable=Connector
 [Table1]
 SchemaName=
 TableName=ADC
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=469|Footprint Path0=413|Footprint Path 20=107|Footprint Path 30=107|Footprint Ref0=154|Footprint Ref 20=101|Footprint Ref 30=101|Library Path0=450|Library Ref0=84|Manufacturer Part Number0=160|Comment0=153|PartID0=54|Created On0=107|ComponentLink1Description0=170|ComponentLink1URL0=741|ComponentLink2Description0=170|ComponentLink2URL0=131|ComponentLink3Description0=170|ComponentLink3URL0=131|ComponentLink4Description0=170|ComponentLink4URL0=131|ComponentLink5Description0=170|ComponentLink5URL0=131|ComponentLink6Description0=170|ComponentLink6URL0=131|Component Type0=111|Device Package0=101|Last Updated0=107|Manufacturer0=98|Minimum Order0=104|Mounting Type0=102|Operating Temperature0=144|Series0=53|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Supplier 40=75|Supplier Part Number 40=142|Supplier 50=75|Supplier Part Number 50=142|Supplier 60=75|Supplier Part Number 60=142|Type0=47|Channels0=71|Resolution0=79|Value0=122|Created from0=90|Verified by0=78|Live Cycle Status0=106|LCSC Part Number0=115|Stock number0=94
 [Table2]
 SchemaName=
 TableName=Annotation
@@ -59,6 +56,9 @@ TableName=Connector
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=356|Footprint Path0=231|Footprint Path 20=107|Footprint Path 30=107|Footprint Ref0=151|Footprint Ref 20=101|Footprint Ref 30=101|Manufacturer Part Number0=160|Library Path0=220|Library Ref0=125|PartID0=54|Created On0=107|Comment0=72|ComponentLink1Description0=170|ComponentLink1URL0=374|ComponentLink2Description0=170|ComponentLink2URL0=131|ComponentLink3Description0=170|ComponentLink3URL0=131|ComponentLink4Description0=170|ComponentLink4URL0=131|ComponentLink5Description0=170|ComponentLink5URL0=131|ComponentLink6Description0=170|ComponentLink6URL0=131|Component Type0=111|Device Package0=101|Last Updated0=107|Manufacturer0=93|Minimum Order0=104|Mounting Type0=102|Operating Temperature0=144|Series0=90|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Supplier 40=75|Supplier Part Number 40=142|Supplier 50=75|Supplier Part Number 50=142|Supplier 60=75|Supplier Part Number 60=142|Type0=47|Value0=153|Created from0=90|Verified by0=78|Live Cycle Status0=106|LCSC Part Number0=115
 [Table7]
 SchemaName=
 TableName=Connectors - Board to Board
@@ -149,27 +149,18 @@ TableName=Inductances - SMD
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=489|Footprint Path0=382|Footprint Path 20=107|Footprint Path 30=107|Footprint Ref0=149|Footprint Ref 20=101|Footprint Ref 30=101|Manufacturer Part Number0=160|Library Path0=374|Library Ref0=120|Comment0=153|PartID0=54|Created On0=107|ComponentLink1Description0=170|ComponentLink1URL0=495|ComponentLink2Description0=170|ComponentLink2URL0=131|ComponentLink3Description0=170|ComponentLink3URL0=131|ComponentLink4Description0=170|ComponentLink4URL0=131|ComponentLink5Description0=170|ComponentLink5URL0=131|ComponentLink6Description0=170|ComponentLink6URL0=131|Component Type0=123|Device Package0=114|Last Updated0=107|Manufacturer0=103|Minimum Order0=104|Mounting Type0=102|Operating Temperature0=144|Series0=76|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=160|Supplier 30=75|Supplier Part Number 30=142|Supplier 40=75|Supplier Part Number 40=142|Supplier 50=75|Supplier Part Number 50=142|Supplier 60=75|Supplier Part Number 60=142|Type0=123|DC current0=78|Value0=60|Created from0=90|Verified by0=78|Live Cycle Status0=106|LCSC Part Number0=115|Stock number0=94
 [Table22]
 SchemaName=
 TableName=Inductor
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=82|Footprint Path0=98|Footprint Path 20=107|Footprint Path 30=107|Footprint Ref0=92|Footprint Ref 20=101|Footprint Ref 30=101|Library Path0=83|Library Ref0=77|PartID0=54|Created On0=82|Comment0=72|ComponentLink1Description0=170|ComponentLink1URL0=131|ComponentLink2Description0=170|ComponentLink2URL0=131|ComponentLink3Description0=170|ComponentLink3URL0=131|ComponentLink4Description0=170|ComponentLink4URL0=131|ComponentLink5Description0=170|ComponentLink5URL0=131|ComponentLink6Description0=170|ComponentLink6URL0=131|Component Type0=111|Device Package0=101|Last Updated0=91|Manufacturer0=93|Manufacturer Part Number0=160|Minimum Order0=104|Mounting Type0=102|Operating Temperature0=144|Series0=53|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Supplier 40=75|Supplier Part Number 40=142|Supplier 50=75|Supplier Part Number 50=142|Supplier 60=75|Supplier Part Number 60=142|Type0=47|Value0=52|Created from0=90|Verified by0=78|Live Cycle Status0=106
 [Table23]
 SchemaName=
 TableName=Interface - CAN
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Comment0=153|Description0=509|Footprint Path0=364|Footprint Path 20=107|Footprint Path 30=107|Footprint Ref0=117|Footprint Ref 20=101|Footprint Ref 30=101|Manufacturer Part Number0=160|Library Path0=394|Library Ref0=101|PartID0=54|Created On0=107|ComponentLink1Description0=170|ComponentLink1URL0=1208|ComponentLink2Description0=170|ComponentLink2URL0=131|ComponentLink3Description0=170|ComponentLink3URL0=131|ComponentLink4Description0=170|ComponentLink4URL0=131|ComponentLink5Description0=170|ComponentLink5URL0=131|ComponentLink6Description0=170|ComponentLink6URL0=131|Component Type0=164|Device Package0=101|Last Updated0=107|Manufacturer0=107|Minimum Order0=104|Mounting Type0=102|Operating Temperature0=144|Series0=83|Supplier 10=102|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Supplier 40=75|Supplier Part Number 40=142|Supplier 50=75|Supplier Part Number 50=142|Supplier 60=75|Supplier Part Number 60=142|Type0=120|Value0=52|Created from0=90|Verified by0=78|Live Cycle Status0=106|LCSC Part Number0=115|Stock number0=94
 [Table24]
 SchemaName=
 TableName=Interface - Ethernet
