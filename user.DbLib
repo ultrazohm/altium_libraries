@@ -148,7 +148,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=PartID0=54|Created On0=107|Comment0=153|ComponentLink1Description0=170|ComponentLink1URL0=356|ComponentLink2Description0=170|ComponentLink2URL0=131|ComponentLink3Description0=170|ComponentLink3URL0=131|ComponentLink4Description0=170|ComponentLink4URL0=131|ComponentLink5Description0=170|ComponentLink5URL0=131|ComponentLink6Description0=170|ComponentLink6URL0=131|Component Type0=111|Description0=229|Device Package0=101|Footprint Path0=344|Footprint Path 20=107|Footprint Path 30=107|Footprint Ref0=92|Footprint Ref 20=101|Footprint Ref 30=101|Last Updated0=107|Manufacturer0=104|Manufacturer Part Number0=160|Mounting Type0=102|Operating Temperature0=144|Series0=53|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Supplier 40=75|Supplier Part Number 40=142|Supplier 50=75|Supplier Part Number 50=142|Supplier 60=75|Supplier Part Number 60=142|Library Path0=210|Library Ref0=83|Type0=49|Value0=153|Created from0=90|LCSC Part Number0=115
+BrowserOrder_Visible=Description0=229|Footprint Path0=344|Footprint Path 20=107|Footprint Path 30=107|Footprint Ref0=92|Footprint Ref 20=101|Footprint Ref 30=101|Library Path0=299|Library Ref0=83|PartID0=54|Created On0=107|Comment0=153|ComponentLink1Description0=170|ComponentLink1URL0=356|ComponentLink2Description0=170|ComponentLink2URL0=131|ComponentLink3Description0=170|ComponentLink3URL0=131|ComponentLink4Description0=170|ComponentLink4URL0=131|ComponentLink5Description0=170|ComponentLink5URL0=131|ComponentLink6Description0=170|ComponentLink6URL0=131|Component Type0=111|Device Package0=101|Last Updated0=107|Manufacturer0=104|Manufacturer Part Number0=160|Mounting Type0=102|Operating Temperature0=144|Series0=53|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Supplier 40=75|Supplier Part Number 40=142|Supplier 50=75|Supplier Part Number 50=142|Supplier 60=75|Supplier Part Number 60=142|Type0=49|Value0=153|Created from0=90|LCSC Part Number0=115
 [Table22]
 SchemaName=
 TableName=Fuses - SMD
@@ -804,11 +804,11 @@ Options=FieldName=EEPROM.Footprint Ref 2|TableNameOnly=EEPROM|FieldNameOnly=Foot
 [FieldMap237]
 Options=FieldName=EEPROM.Footprint Ref 3|TableNameOnly=EEPROM|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap238]
-Options=FieldName=EEPROM.Manufacturer Part Number|TableNameOnly=EEPROM|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap239]
 Options=FieldName=EEPROM.Library Path|TableNameOnly=EEPROM|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap240]
+[FieldMap239]
 Options=FieldName=EEPROM.Library Ref|TableNameOnly=EEPROM|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap240]
+Options=FieldName=EEPROM.Manufacturer Part Number|TableNameOnly=EEPROM|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap241]
 Options=FieldName=Fuses - SMD.Description|TableNameOnly=Fuses - SMD|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap242]
