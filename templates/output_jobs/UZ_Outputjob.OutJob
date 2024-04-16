@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Job Group
+Name=UZ_Outputjob.OutJob
 Description=
 TargetOutputMedium=Gerber_and_Drill_Files
-VariantName=[No Variations]
+VariantName=Variant_V1
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=OKI B432(PS)
+TargetPrinter=Corel PDF Creator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -135,7 +135,7 @@ OutputEnabled5_OutputMedium7=0
 OutputEnabled5_OutputMedium8=0
 OutputEnabled5_OutputMedium9=0
 OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.72|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.68|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration5_Name1=OutputConfigurationParameter1
 Configuration5_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Optical_18Tx_14Tx4Rx\Digital_Optical_18Tx_14Tx4Rx.PcbDoc
 Configuration5_Name2=OutputConfigurationParameter2
@@ -229,7 +229,7 @@ OutputEnabled8_OutputMedium8=0
 OutputEnabled8_OutputMedium9=0
 OutputDefault8=0
 Configuration8_Name1=OutputConfigurationParameter1
-Configuration8_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Test_PCB.PcbDoc
+Configuration8_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=EUTONNES|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16973835~1,16973833~1,16973831~1,16908289~1,16777217~1,16777218~1,16777219~1,16777220~1,16777221~1,16842751~1|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=C:\Users\ga92wum\git\UltraZohm\PCB\uz_d_inverter\UZ_D_Inverter.PcbDoc
 OutputType9=NC Drill
 OutputName9=NC Drill Files
 OutputCategory9=Fabrication
@@ -507,7 +507,7 @@ Configuration12_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|G
 OutputType13=BOM_PartType
 OutputName13=BOM_JLC
 OutputCategory13=Report
-OutputDocumentPath13=[ActiveBOM Document]
+OutputDocumentPath13=
 OutputVariantName13=Standard
 OutputEnabled13=0
 OutputEnabled13_OutputMedium1=0
@@ -524,26 +524,26 @@ PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 Configuration13_Name1=ColumnNameFormat
 Configuration13_Item1=CaptionAsName
 Configuration13_Name2=General
-Configuration13_Item2=OpenExported=False|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Student\Desktop\Altium\altium_libraries\templates\BOM\BOM_Template_THN_JLCPCB.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1602|FormHeight=969|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration13_Item2=OpenExported=False|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Student\Desktop\Altium\altium_libraries\templates\BOM\BOM_Template_THN_JLCPCB.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1969|FormHeight=1153|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration13_Name3=GroupOrder
-Configuration13_Item3=Comment=True|MPN=True|Footprint=True
+Configuration13_Item3=Comment=True|MPN=True|Footprint=True|Manufacturer Part Number=True|LCSC Part Number=True
 Configuration13_Name4=OutputConfigurationParameter1
 Configuration13_Item4=??
 Configuration13_Name5=SortOrder
 Configuration13_Item5=Designator=Up
 Configuration13_Name6=VisibleOrder
-Configuration13_Item6=Comment=116|Designator=107|Footprint=149|LCSC Part Number=100
+Configuration13_Item6=Comment=116|Designator=107|Footprint=149|LCSC Part Number=100|Manufacturer Part Number=100
 Configuration13_Name7=VisibleOrder_Base
 Configuration13_Item7=Line #=53|Comment=52|Description=79|Designator=77|Quantity=67|LCSC Part Number=115|Footprint=119|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=143|Supplier 1=72|Supplier Part Number 1=139|Supplier Unit Price 1=123|Supplier Subtotal 1=116
 Configuration13_Name8=VisibleOrder_Consolidated
 Configuration13_Item8=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=143|Supplier 1=72|Supplier Part Number 1=139|Supplier Unit Price 1=123|Supplier Subtotal 1=116
 Configuration13_Name9=VisibleOrder_Flat
-Configuration13_Item9=Comment=116|Designator=107|Footprint=149|LCSC Part Number=100
+Configuration13_Item9=Comment=116|Designator=107|Footprint=149|LCSC Part Number=100|Manufacturer Part Number=100
 
 [PublishSettings]
 OutputFilePath2=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Free Documents
+OutputBasePath2=Project Outputs for UZ_D_Inverter
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=
@@ -570,7 +570,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=Project Outputs for Free Documents\ProjectRevision\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for Free Documents
+OutputBasePath3=Project Outputs for UZ_D_Inverter
 OutputPathMedia3==ProjectRevision
 OutputPathMediaValue3==ProjectRevision
 OutputPathOutputer3=
@@ -597,7 +597,7 @@ PDFACompliance3=Disabled
 PDFVersion3=Default
 OutputFilePath4=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\ProjectRevision\
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for Free Documents
+OutputBasePath4=Project Outputs for UZ_D_Inverter
 OutputPathMedia4==ProjectRevision
 OutputPathMediaValue4==ProjectRevision
 OutputPathOutputer4=
@@ -622,9 +622,9 @@ ShowComponentParameters4=1
 GlobalBookmarks4=0
 PDFACompliance4=Disabled
 PDFVersion4=Default
-OutputFilePath5=Project Outputs for Free Documents\ProjectRevision\
+OutputFilePath5=C:\Users\ga92wum\git\UltraZohm\PCB\uz_d_inverter\Project Outputs for UZ_D_Inverter\Rev03\
 ReleaseManaged5=1
-OutputBasePath5=Project Outputs for Free Documents
+OutputBasePath5=Project Outputs for UZ_D_Inverter
 OutputPathMedia5==ProjectRevision
 OutputPathMediaValue5==ProjectRevision
 OutputPathOutputer5=[Output Custom]
@@ -637,7 +637,7 @@ OutputFileNameSpecial5=
 OpenOutput5=0
 OutputFilePath6=Project Outputs for Free Documents\
 ReleaseManaged6=1
-OutputBasePath6=Project Outputs for Free Documents
+OutputBasePath6=Project Outputs for UZ_D_Inverter
 OutputPathMedia6=
 OutputPathMediaValue6=
 OutputPathOutputer6=[Output Type]
@@ -648,9 +648,9 @@ OutputFileNameMulti6=='Export STEP_'+ProjectName+'_'+VariantName+'_'+ProjectRevi
 UseOutputNameForMulti6=0
 OutputFileNameSpecial6=
 OpenOutput6=0
-OutputFilePath7=Project Outputs for Free Documents\ProjectRevision\
+OutputFilePath7=C:\Users\ga92wum\git\UltraZohm\PCB\uz_d_inverter\Project Outputs for UZ_D_Inverter\Rev03\
 ReleaseManaged7=1
-OutputBasePath7=Project Outputs for Free Documents
+OutputBasePath7=Project Outputs for UZ_D_Inverter
 OutputPathMedia7==ProjectRevision
 OutputPathMediaValue7==ProjectRevision
 OutputPathOutputer7=[Output Type]
@@ -661,11 +661,11 @@ OutputFileNameMulti7==ProjectName+'_'+ProjectRevision
 UseOutputNameForMulti7=0
 OutputFileNameSpecial7=
 OpenOutput7=0
-OutputFilePath8=Project Outputs for Free Documents\ProjectRevision\
+OutputFilePath8=C:\Users\ga92wum\git\UltraZohm\PCB\uz_d_inverter\Project Outputs for UZ_D_Inverter\Rev03\
 ReleaseManaged8=1
-OutputBasePath8=Project Outputs for Free Documents
-OutputPathMedia8=='ProjectRevision'
-OutputPathMediaValue8=='ProjectRevision'
+OutputBasePath8=Project Outputs for UZ_D_Inverter
+OutputPathMedia8==ProjectRevision
+OutputPathMediaValue8==ProjectRevision
 OutputPathOutputer8=[Output Type]
 OutputPathOutputerPrefix8=
 OutputPathOutputerValue8=
@@ -674,9 +674,9 @@ OutputFileNameMulti8=='Pick_and_Place_'+ProjectName+'_'+VariantName+'_'+ProjectR
 UseOutputNameForMulti8=0
 OutputFileNameSpecial8=
 OpenOutput8=0
-OutputFilePath9=Project Outputs for Free Documents\ProjectRevision\
+OutputFilePath9=C:\Users\ga92wum\git\UltraZohm\PCB\uz_d_inverter\Project Outputs for UZ_D_Inverter\Rev03\
 ReleaseManaged9=1
-OutputBasePath9=Project Outputs for Free Documents
+OutputBasePath9=Project Outputs for UZ_D_Inverter
 OutputPathMedia9==ProjectRevision
 OutputPathMediaValue9==ProjectRevision
 OutputPathOutputer9=[Output Type]
@@ -695,7 +695,7 @@ RelativeOutputPath3=Project Outputs for Free Documents\ProjectRevision\
 OpenOutputs3=0
 RelativeOutputPath4=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\ProjectRevision\
 OpenOutputs4=0
-RelativeOutputPath5=Project Outputs for Free Documents\ProjectRevision\
+RelativeOutputPath5=C:\Users\ga92wum\git\UltraZohm\PCB\uz_d_inverter\Project Outputs for UZ_D_Inverter\Rev03\
 OpenOutputs5=0
 AddToProject5=0
 TimestampFolder5=0
@@ -715,7 +715,7 @@ OpenGerberOutput6=0
 OpenNCDrillOutput6=0
 OpenIPCOutput6=0
 EnableReload6=0
-RelativeOutputPath7=Project Outputs for Free Documents\ProjectRevision\
+RelativeOutputPath7=C:\Users\ga92wum\git\UltraZohm\PCB\uz_d_inverter\Project Outputs for UZ_D_Inverter\Rev03\
 OpenOutputs7=0
 AddToProject7=0
 TimestampFolder7=0
@@ -725,7 +725,7 @@ OpenGerberOutput7=0
 OpenNCDrillOutput7=0
 OpenIPCOutput7=0
 EnableReload7=0
-RelativeOutputPath8=Project Outputs for Free Documents\ProjectRevision\
+RelativeOutputPath8=C:\Users\ga92wum\git\UltraZohm\PCB\uz_d_inverter\Project Outputs for UZ_D_Inverter\Rev03\
 OpenOutputs8=0
 AddToProject8=0
 TimestampFolder8=0
@@ -735,7 +735,7 @@ OpenGerberOutput8=0
 OpenNCDrillOutput8=0
 OpenIPCOutput8=0
 EnableReload8=0
-RelativeOutputPath9=Project Outputs for Free Documents\ProjectRevision\
+RelativeOutputPath9=C:\Users\ga92wum\git\UltraZohm\PCB\uz_d_inverter\Project Outputs for UZ_D_Inverter\Rev03\
 OpenOutputs9=0
 AddToProject9=0
 TimestampFolder9=0
